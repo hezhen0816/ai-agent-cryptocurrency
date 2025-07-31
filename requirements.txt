@@ -1,0 +1,11 @@
+# requirements.txt
+numpy>=1.24
+pandas>=2.0
+pyarrow             # pandas 讀寫 Parquet 用
+ccxt
+python-dateutil
+#ta-lib              # 技術指標；Win 用 pip wheel 或安裝 ta-lib-binary
+lightgbm
+scikit-learn
+vectorbt
+numba               # vectorbt 依賴
